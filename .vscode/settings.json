@@ -1,0 +1,36 @@
+{
+    // config related to code formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "prettier.singleQuote": true,
+    "prettier.semi": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 80,
+    "prettier.trailingComma": "es5",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": null
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": null
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": null
+    },
+    "javascript.validate.enable": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.tslint": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    // tailwind css
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "liveServer.settings.port": 5501
+}
